@@ -22,5 +22,47 @@ Step3:
 modify cassandra.yaml file in below path
 /path/to/installedlocation/cassandra/dsc-cassandra-2.1.8/conf
 
+need to change these parameters..
+
+cluster_name: 'my_cluster'
+- seeds: "IP of machine" ( If you are using cloud machine, then give private IP)
+listen_address: localhost ( If you are using cloud machine, then give private IP)
+broadcast_address: default ( If you are using cloud machine, then give private IP)
+start_rpc: false
+rpc_address: 0.0.0.0
+broadcast_rpc_address: default ( If you are using cloud machine, then give private IP)
+endpoint_snitch: SimpleSnitch (If you are using cloud, then useEc2Snitch )
+
+Note: Need to follow proper indentation.. otherwise cassandra not able to identify property
+
+
+
+After dooing above step..
+
+Step4:
+
+Time to start cassandra server
+
+cassandra &
+opscenter &
+datastax-agent &
+
+above commands will work only when you set path.. otherwise need to go to installed location then give above commands..
+
+No gossip backlog; proceeding...  see this message at the end of cassandra services
+
+Step5:
+
+If everyting is fine then type..
+
+cqlsh
+
+if you are able to see cqlsh teminal... then installation is successful..
+
+
+
+
+
+
 
 
