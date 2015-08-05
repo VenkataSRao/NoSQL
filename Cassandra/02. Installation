@@ -1,0 +1,26 @@
+Pre-Requisites:
+==============
+
+jdk1.7 or higher version is required..
+
+Installing cassandra:
+====================
+
+Step1:
+
+Download below components from http://cassandra.apache.org/download/
+
+Cassandra dev server ( dsc-cassandra-2.1.8-bin.tar.gz)
+opscenter (opscenter-5.0.tar.gz)
+
+Step2:
+
+untar these files and give proper permissions to these two folders.. and set path for both in bashrc
+
+Step3:
+
+modify cassandra.yaml file in below path
+/path/to/installedlocation/cassandra/dsc-cassandra-2.1.8/conf
+
+
+
