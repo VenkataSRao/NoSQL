@@ -1,0 +1,11 @@
+The features of MongoDB are
+
+  Document-oriented
+  Adhoc Queris
+  Indexing
+  Replication
+  Load Balancing
+  File Storage
+  Aggregation
+  Server-side Java script execution
+  Capped collections
