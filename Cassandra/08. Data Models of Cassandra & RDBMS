@@ -26,5 +26,5 @@ Keyspace is the outermost container that contains data corresponding to an appli
 Tables or column families are the entity of a keyspace.
 Row is a unit of replication in Cassandra.
 Column is a unit of storage in Cassandra.
+Relationships are represented using collections.
 
-Relationships are
