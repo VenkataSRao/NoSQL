@@ -1,0 +1,19 @@
+Components of Cassandra:
+=====================
+
+Node: 
+  It is the place where data is stored.
+Data center: 
+  It is a collection of related nodes.
+Cluster: 
+  A cluster is a component that contains one or more data centers.
+Commit log: 
+  The commit log is a crash-recovery mechanism in Cassandra. Every write operation is written to the commit log.
+Mem-table: 
+  A mem-table is a memory-resident data structure. After commit log, the data will be written to the mem-table. Sometimes, 
+  for a single-column family, there will be multiple mem-tables.
+SSTable: 
+  It is a disk file to which the data is flushed from the mem-table when its contents reach a threshold value.
+Bloom filter: 
+  These are nothing but quick, non-deterministic, algorithms for testing whether an element is a member of a set. It is a special 
+  kind of cache. Bloom filters are accessed after every query.
