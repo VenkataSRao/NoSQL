@@ -1,0 +1,30 @@
+Installing Mongo in single box..
+
+
+Step1:
+
+wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.6.tgz
+tar -zxvf mongodb-linux-x86_64-3.0.6.tgz
+
+Step2:
+
+Create a data directory
+
+mkdir -p /paht/to/mongo/data
+chmod -R 777 /paht/to/mongo/data
+
+Step3:
+Start services
+
+mongod --dbpath /paht/to/mongo/data &
+
+Step4:
+
+Stop Services
+
+pkill -f mongod
+
+
+That's It.. :-)
+
+
