@@ -1,0 +1,30 @@
+Differnces b/w datamodels of RDBMS and Cassandra
+
+
+RDBMS:
+=====
+
+RDBMS deals with structured data.
+It has a fixed schema.
+In RDBMS, a table is an array of arrays.
+(ROW x COLUMN)
+Database is the outermost container that contains data corresponding to an application.
+Tables are the entities of a database.
+Row is an individual record in RDBMS.
+Column represents the attributes of a relation.
+RDBMS supports the concepts of foreign keys, joins.
+
+
+
+Cassandra:
+=========
+Cassandra deals with unstructured data.
+Cassandra has a flexible schema.
+In Cassandra, a table is a list of “nested key-value pairs”.
+(ROW x COLUMN key x COLUMN value)
+Keyspace is the outermost container that contains data corresponding to an application.
+Tables or column families are the entity of a keyspace.
+Row is a unit of replication in Cassandra.
+Column is a unit of storage in Cassandra.
+
+Relationships are
