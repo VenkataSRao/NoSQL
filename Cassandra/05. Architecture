@@ -1,0 +1,8 @@
+The design goal of Cassandra is to handle big data workloads across multiple nodes without any single point of failure. 
+Cassandra has peer-to-peer distributed system across its nodes, and data is distributed among all the nodes in a cluster.
+
+All the nodes in a cluster play the same role. Each node is independent and at the same time interconnected to other nodes.
+
+Each node in a cluster can accept read and write requests, regardless of where the data is actually located in the cluster.
+
+When a node goes down, read/write requests can be served from other nodes in the network.
