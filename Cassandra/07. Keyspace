@@ -18,3 +18,4 @@ Column families:
 The syntax of creating a Keyspace is as follows:
 
 CREATE KEYSPACE Keyspace name WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};
+
