@@ -1,0 +1,15 @@
+Help Commands
+
+help
+db.help
+db.<collection>.help()
+show dbs
+use <db>
+show collections
+show users
+show roles
+show profile
+show databases
+load()
+
+
