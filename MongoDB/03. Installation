@@ -25,6 +25,8 @@ Stop Services
 pkill -f mongod
 
 
+
+
 That's It.. :-)
 
 
